@@ -18,26 +18,8 @@ Assignment 3 of the CS6910: Fundamentals of Deep Learning course by Dipra Bhagat
 
 * **All** the .ipynb notebooks are well structured and can be run cell by cell. (use **run all** option on jupyter/colab/kaggle. Or you can also run anually cell by cell)
 
-* To train with **command line**, run the file ```train_cmd.py``` by passing the list of hyperparameters as command line arguments. Example below:
+* Code is made **flexible**. All the hyperparameters can be passed into the ```build_model``` and ```train()``` functions.
 
-```python
-py train_cmd -e 15 -act 'relu' -cell 'GRU' -lr 0.001 -ne 2 -nd 2 -hl 256 -d 0.3 -bs 256 -bw 3
-```
-The full form of the arguments are as follows:
-```python
-'''
--e: epochs 
--act: activaion function to use
--cell: cell type ('GRU', 'lstm' etc)
--lr: learning rate
--ne: number of encoders
--nd: number of decoders
--hl: hidden layer size
--d: dropout
--bs: batch size 
--bw: beam width(for beam decoder)
-'''
-```
 
 
 ## Run each file for appropriate purposes:
