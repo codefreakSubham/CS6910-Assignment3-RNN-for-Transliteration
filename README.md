@@ -1,4 +1,4 @@
-# CS6910-Assignment3
+# Transliteration system using seq2seq models
 Assignment 3 of the CS6910: Fundamentals of Deep Learning course by Dipra Bhagat (CS21S048) and Subham Das (CS21S058)
 
 
